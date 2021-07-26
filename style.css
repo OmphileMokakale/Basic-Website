@@ -1,0 +1,94 @@
+body{
+    background-color: royalblue;
+    background-image: url("table-m-254811_1920.jpg");
+    color: snow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.first-section{
+    display: flex;
+
+}
+.second-section{
+    display: flex;
+}
+.third-section{
+
+    padding-left: 1em;
+    
+}
+.forth-section{
+    display: flex;
+    padding-left: 1em;
+}
+
+.name{
+   
+    flex: 4;
+    padding-left: 20em;
+    padding-top: 5em;
+}
+.heading{
+   
+    flex: 4;
+    padding-left:em;
+    
+}
+.headings{
+    padding-left: 1em;
+}
+.picture{
+ 
+    flex: 4;
+    padding-bottom: -2em;
+}
+img{
+    margin: 1em;
+    padding-left: -2em;
+    
+}
+.which-city{
+    flex: 4;
+    padding-top: 7em;
+    
+}
+.place1{
+    display: flex;
+    flex: 2;
+}
+.place2{
+    display: flex;
+    flex: 2;
+}
+.place3{
+    display: flex;
+    flex: 2;
+}
+
+table, th, td {
+    border: 1px solid yellowgreen;
+    padding: 1px;
+  }
+  table {
+    border-spacing: 2px;
+    
+  }
+
+
+
+  body {
+    font: normal medium/1.4 sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    padding: 0.25rem;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  tbody tr:nth-child(odd) {
+    background: rgb(202, 214, 236);
+  }
