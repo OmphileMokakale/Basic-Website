@@ -1,11 +1,14 @@
 body{
     background-color: royalblue;
     background-image: url("table-m-254811_1920.jpg");
-    color: snow;
+    color: black;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
 }
-
+.sections{
+    background-color: #b8c0ff;
+    
+}
 .first-section{
     display: flex;
 
