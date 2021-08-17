@@ -20,9 +20,6 @@ a {
 	text-decoration: none!important;
 }
 
-.copyright-text {
-	text-transform: uppercase;
-}
 
 .main-button a {
 	background-color: #3a8bcd;
@@ -101,7 +98,7 @@ a {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-	color: #3a8bcd;
+	color: royalblue;
 }
 .navbar:after {
 	width: 100%;
@@ -116,7 +113,7 @@ a {
 	background-image: none;
 }
 .navbar-dark .navbar-toggler {
-	border-color: #3a8bcd;
+	border-color: #1287e7;
 	background-color: #3a8bcd;	
 	height: 50px;
 	outline: none;
@@ -137,11 +134,16 @@ a {
 	padding: 150px 0px;
 	background-position: center center;
 }
+
+
 .banner .caption {
 	background-color: rgba(250,250,250,0.9);
-	padding: 30px;
+	padding: 20px;
+	margin:auto;
+	padding-left: 5em;
 	max-width: 450px;
 }
+
 .banner .caption h2 {
 	margin-top: 0px;
 	margin-bottom: 15px;
@@ -419,7 +421,7 @@ a {
 }
 .page-navigation ul li a {
 	width: 40px;
-	height: 40px;
+	height: 50px;
 	display: inline-block;
 	text-align: center;
 	line-height: 38px;
@@ -433,7 +435,7 @@ a {
 }
 .page-navigation ul li a:hover,
 .page-navigation ul li.current-page a {
-	background-color: #3a8bcd;
+	background-color: #1384e0;
 	border-color: #3a8bcd;
 	color: #fff;
 }

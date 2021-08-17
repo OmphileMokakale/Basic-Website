@@ -9,21 +9,16 @@ body{
     background-color: #b8c0ff;
     
 }
-.first-section{
-    display: flex;
 
-}
-.second-section{
-    display: flex;
-}
+
 .third-section{
 
     padding-left: 1em;
     
 }
 .forth-section{
-    display: flex;
     padding-left: 1em;
+
 }
 
 .name{
@@ -45,11 +40,11 @@ body{
  
     flex: 4;
     padding-bottom: -2em;
-    padding-left: em;
+    padding-left: -10em;
 }
 img{
     margin: 1em;
-    padding-left: -2em;
+    
     padding-top: 1em;
     
 }
@@ -59,20 +54,20 @@ img{
     
 }
 .place1{
-    display: flex;
+   
     flex: 4;
 }
 .place2{
-    display: flex;
+    
     flex: 4;
 }
 .place3{
-    display: flex;
+    
     flex: 4;
 }
 
 table, th, td {
-    border: 1px solid yellowgreen;
+    
     padding: 1px;
   }
   table {
@@ -107,3 +102,25 @@ table, th, td {
   .col-4{
       padding-top: 4em;
   }
+
+  @media(min-width: 960px){
+
+    .first-section{
+        display: flex;
+    
+    }
+}
+
+@media(min-width: 960px){
+
+    .second-section{
+        display: flex;
+    }
+}
+
+@media(min-width: 960px){
+
+    .forth-section{
+        display: flex;
+    }
+}
