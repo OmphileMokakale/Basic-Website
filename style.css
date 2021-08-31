@@ -103,6 +103,13 @@ table, th, td {
       padding-top: 4em;
   }
 
+
+
+.historicalPlaces{
+    display: flex;
+}
+
+
   @media(min-width: 960px){
 
     .first-section{
